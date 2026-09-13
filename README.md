@@ -13,3 +13,10 @@ Nothing but this file. The point is the workflow, not the code.
 2. Make a change and push the branch.
 3. Open a pull request.
 4. Merge it.
+
+## How this repository was built
+
+Every change here was written in a pairing session: a human driver and an AI
+assistant working on the same commit, one reviewing while the other typed.
+The `Co-authored-by:` trailers on the commits record that second pair of hands,
+so `git log` shows who was actually in the room for a change.
